@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACFA5B8239765E900E07D99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFA5B7239765E900E07D99 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0ACFA5B2239765E900E07D99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A7E88B8239A3A3200AE79E9 /* MiscUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiscUtils.cpp; sourceTree = "<group>"; };
+		0A7E88B9239A3A3300AE79E9 /* MiscUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiscUtils.hpp; sourceTree = "<group>"; };
+		0ACFA5B4239765E900E07D99 /* BBGradeCalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BBGradeCalc; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACFA5B7239765E900E07D99 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0ACFA5BE239765FD00E07D99 /* GradeUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GradeUtils.cpp; sourceTree = "<group>"; };
+		0ACFA5BF239765FD00E07D99 /* GradeUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GradeUtils.hpp; sourceTree = "<group>"; };
+		0ACFA5C123979B4100E07D99 /* HTMLUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HTMLUtils.cpp; sourceTree = "<group>"; };
+		0ACFA5C223979B4100E07D99 /* HTMLUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HTMLUtils.hpp; sourceTree = "<group>"; };
+		0ACFA5C423979B9800E07D99 /* Assignment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Assignment.cpp; sourceTree = "<group>"; };
+		0ACFA5C523979B9800E07D99 /* Assignment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Assignment.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ACFA5B1239765E900E07D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACFA5AB239765E900E07D99 = {
+			isa = PBXGroup;
+			children = (
+				0ACFA5B6239765E900E07D99 /* BBGradeCalc */,
+				0ACFA5B5239765E900E07D99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ACFA5B5239765E900E07D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA5B4239765E900E07D99 /* BBGradeCalc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ACFA5B6239765E900E07D99 /* BBGradeCalc */ = {
+			isa = PBXGroup;
+			children = (
+				0ACFA5B7239765E900E07D99 /* main.cpp */,
+				0ACFA5BE239765FD00E07D99 /* GradeUtils.cpp */,
+				0ACFA5BF239765FD00E07D99 /* GradeUtils.hpp */,
+				0ACFA5C123979B4100E07D99 /* HTMLUtils.cpp */,
+				0ACFA5C223979B4100E07D99 /* HTMLUtils.hpp */,
+				0ACFA5C423979B9800E07D99 /* Assignment.cpp */,
+				0ACFA5C523979B9800E07D99 /* Assignment.hpp */,
+				0A7E88B8239A3A3200AE79E9 /* MiscUtils.cpp */,
+				0A7E88B9239A3A3300AE79E9 /* MiscUtils.hpp */,
+			);
+			path = BBGradeCalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ACFA5B3239765E900E07D99 /* BBGradeCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ACFA5BB239765E900E07D99 /* Build configuration list for PBXNativeTarget "BBGradeCalc" */;
+			buildPhases = (
+				0ACFA5B0239765E900E07D99 /* Sources */,
+				0ACFA5B1239765E900E07D99 /* Frameworks */,
+				0ACFA5B2239765E900E07D99 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBGradeCalc;
+			productName = BBGradeCalc;
+			productReference = 0ACFA5B4239765E900E07D99 /* BBGradeCalc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ACFA5AC239765E900E07D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Austin Mayes";
+				TargetAttributes = {
+					0ACFA5B3239765E900E07D99 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0ACFA5AF239765E900E07D99 /* Build configuration list for PBXProject "BBGradeCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ACFA5AB239765E900E07D99;
+			productRefGroup = 0ACFA5B5239765E900E07D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ACFA5B3239765E900E07D99 /* BBGradeCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ACFA5B0239765E900E07D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFA5B8239765E900E07D99 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0ACFA5B9239765E900E07D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0ACFA5BA239765E900E07D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0ACFA5BC239765E900E07D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include",
+					"-I/usr/local/Cellar/libxml++/2.40.1_2/include/libxml++-2.6",
+					"-I/usr/local/Cellar/libxml++/2.40.1_2/lib/libxml++-2.6/include",
+					"-I/usr/local/Cellar/glibmm/2.62.0/include/glibmm-2.4",
+					"-I/usr/local/Cellar/glibmm/2.62.0/lib/glibmm-2.4/include",
+					"-I/usr/local/Cellar/glib/2.62.2/include",
+					"-I/usr/local/Cellar/glib/2.62.2/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.2/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.43/include",
+					"-I/usr/local/Cellar/libsigc++@2/2.10.2/include/sigc++-2.0",
+					"-I/usr/local/Cellar/libsigc++@2/2.10.2/lib/sigc++-2.0/include",
+					"-I/usr/include/libxml2",
+					"$(OTHER_CFLAGS)",
+					"-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2\n",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/libxml++/2.40.1_2/lib",
+					"-L/usr/local/Cellar/glibmm/2.62.0/lib",
+					"-L/usr/local/Cellar/glib/2.62.2/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-L/usr/local/Cellar/libsigc++@2/2.10.2/lib",
+					"-lxml++-2.6",
+					"-lxml2",
+					"-lglibmm-2.4",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
+					"-lsigc-2.0",
+					"-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+					"-lxml2",
+					"-lz",
+					"-lpthread",
+					"-licucore",
+					"-lm",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ACFA5BD239765E900E07D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/Cellar/libffi/3.2.1/lib/libffi-3.2.1/include",
+					"-I/usr/local/Cellar/libxml++/2.40.1_2/include/libxml++-2.6",
+					"-I/usr/local/Cellar/libxml++/2.40.1_2/lib/libxml++-2.6/include",
+					"-I/usr/local/Cellar/glibmm/2.62.0/include/glibmm-2.4",
+					"-I/usr/local/Cellar/glibmm/2.62.0/lib/glibmm-2.4/include",
+					"-I/usr/local/Cellar/glib/2.62.2/include",
+					"-I/usr/local/Cellar/glib/2.62.2/include/glib-2.0",
+					"-I/usr/local/Cellar/glib/2.62.2/lib/glib-2.0/include",
+					"-I/usr/local/opt/gettext/include",
+					"-I/usr/local/Cellar/pcre/8.43/include",
+					"-I/usr/local/Cellar/libsigc++@2/2.10.2/include/sigc++-2.0",
+					"-I/usr/local/Cellar/libsigc++@2/2.10.2/lib/sigc++-2.0/include",
+					"-I/usr/include/libxml2",
+					"$(OTHER_CFLAGS)",
+					"-I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2\n",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/libxml++/2.40.1_2/lib",
+					"-L/usr/local/Cellar/glibmm/2.62.0/lib",
+					"-L/usr/local/Cellar/glib/2.62.2/lib",
+					"-L/usr/local/opt/gettext/lib",
+					"-L/usr/local/Cellar/libsigc++@2/2.10.2/lib",
+					"-lxml++-2.6",
+					"-lxml2",
+					"-lglibmm-2.4",
+					"-lgobject-2.0",
+					"-lglib-2.0",
+					"-lintl",
+					"-lsigc-2.0",
+					"-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib",
+					"-lxml2",
+					"-lz",
+					"-lpthread",
+					"-licucore",
+					"-lm",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ACFA5AF239765E900E07D99 /* Build configuration list for PBXProject "BBGradeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA5B9239765E900E07D99 /* Debug */,
+				0ACFA5BA239765E900E07D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ACFA5BB239765E900E07D99 /* Build configuration list for PBXNativeTarget "BBGradeCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ACFA5BC239765E900E07D99 /* Debug */,
+				0ACFA5BD239765E900E07D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ACFA5AC239765E900E07D99 /* Project object */;
+}
